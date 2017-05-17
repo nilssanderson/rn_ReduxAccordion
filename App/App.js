@@ -11,7 +11,7 @@ import LibraryList from './Components/LibraryList';
 const App = () => {
     return (
         <Provider store={createStore(reducers)}>
-            <View>
+            <View style={{ flex: 1 }}>
                 <Header headerText={'Accordion List'} />
                 <LibraryList />
             </View>
